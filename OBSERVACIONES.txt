@@ -5,3 +5,4 @@ Observaciones a casos de uso y requerimientos
 - lo mismo para los casos de uso
 - falta la descripcion de los casos de uso
 - En dos meses han hecho "Hola Mundo"?
+ESTAN GRAVES
