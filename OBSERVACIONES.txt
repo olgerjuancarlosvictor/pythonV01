@@ -4,3 +4,4 @@ Observaciones a casos de uso y requerimientos
 - muy pobre, no describen nada con los requerimientos, son tres personas deberian entregar minimo dos docenas de requerimientos
 - lo mismo para los casos de uso
 - falta la descripcion de los casos de uso
+- En dos meses han hecho "Hola Mundo"?
