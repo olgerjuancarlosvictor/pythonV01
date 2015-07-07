@@ -6,3 +6,8 @@ Observaciones a casos de uso y requerimientos
 - falta la descripcion de los casos de uso
 - En dos meses han hecho "Hola Mundo"?
 ESTAN GRAVES
+
+OBSERVACIONES SEGUNDO AVANCE
+-----------------------------------------------------------
+- no han hecho merge del pull-request que les he enviado
+- No han subido nada de contenido de los commits
