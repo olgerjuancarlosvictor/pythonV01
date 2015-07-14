@@ -1,0 +1,13 @@
+Observaciones a casos de uso y requerimientos
+---------------------------------------------
+- Urgente leer la teoria de requerimientos funcionales y no funcionales, esta todo mezclado
+- muy pobre, no describen nada con los requerimientos, son tres personas deberian entregar minimo dos docenas de requerimientos
+- lo mismo para los casos de uso
+- falta la descripcion de los casos de uso
+- En dos meses han hecho "Hola Mundo"?
+ESTAN GRAVES
+
+OBSERVACIONES SEGUNDO AVANCE
+-----------------------------------------------------------
+- no han hecho merge del pull-request que les he enviado
+- No han subido nada de contenido de los commits
