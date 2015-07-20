@@ -11,3 +11,7 @@ OBSERVACIONES SEGUNDO AVANCE
 -----------------------------------------------------------
 - no han hecho merge del pull-request que les he enviado
 - No han subido nada de contenido de los commits
+
+OBSERVACIONES TERCER AVANCE
+------------------------------------------------------------
+-  Vas bien pero te falta ahora hacer lo fuerte, darle funcionalidad.
