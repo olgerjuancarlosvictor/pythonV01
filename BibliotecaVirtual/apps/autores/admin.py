@@ -2,4 +2,10 @@ from django.contrib import admin
 from .models import Autor
 
 # Register your models here.
-admin.site.register(Autor)
+class autorAdmin(admin.ModelAdmin):
+	list_display = ["__unicode__","apellido"]
+	class Meta:
+		models= Autor
+	
+
+admin.site.register(Autor, autorAdmin)

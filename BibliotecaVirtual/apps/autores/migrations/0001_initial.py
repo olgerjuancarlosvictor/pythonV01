@@ -19,6 +19,7 @@ class Migration(migrations.Migration):
                 ('pais', models.CharField(max_length=50)),
                 ('descripcion', models.TextField(max_length=200)),
                 ('foto', models.ImageField(upload_to=b'foto_autor')),
+                ('time', models.DateTimeField(auto_now_add=True)),
             ],
         ),
     ]
