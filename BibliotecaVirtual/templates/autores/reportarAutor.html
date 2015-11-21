@@ -1,22 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charse="UTF-8">
-	<title>REPORTAR AUTOR</title>
-	<link rel="stylesheet" href="{{STATIC_URL}}css/style.css">
+	<meta charset="UTF-8">
+	<title>Repotar</title>
 </head>
 <body>
-	<h1>TODOS LOS  AUTORES</h1>
-
+	<h1>Todos los Autores</h1>
+	
 	<ul>
-	    {% for autor in autores %}
-	    <li><b>nombre :</b>{{autor.nombre}} </li>
-	    <li><b>apellido :</b>{{autor.apellido}} </li>
-	    <li><b>pais :</b>{{autor.pais}} </li>
-	    <li><b>descripcion :</b>{{autor.descripcion}} </li>
-	    <li><b>foto :</b> <img src="{{MEDIA_URL}}{{autor.foto}}"></li>
-	    {% endfor %}
-    </ul>
+		{% for autor in autores %}
+			<li><b>Nombre</b> {{autor.nombre}} </li>
+			<li><b>Pais</b> {{autor.pais}} </li>
+			<li><b>Descripcion</b> {{autor.descripcion}} </li>
+			<li><b>Foto</b> <img src="{{MEDIA_URL}}{{autor.foto}}"></li>
+		{% endfor %}
+	</ul>
+
 	
 </body>
-</html>			
+</html>

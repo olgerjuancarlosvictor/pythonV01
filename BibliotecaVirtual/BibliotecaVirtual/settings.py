@@ -41,6 +41,11 @@ INSTALLED_APPS = (
     'apps.autores',
 )
 
+#from django.core.urlresolver import reverse_lazy
+#LOGIN_URL = reverse_lazy('login')
+#LOGIN_REDIRECT_URL = reverse_lazy ('login')
+#LOGOUT_URL = reverse_lazy ('logout')
+
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -112,4 +117,10 @@ MEDIA_URL ='http://127.0.0.1:8000/media/'
 MEDIA_ROOT = 'media'
 STATICFILES_DIRS =(
     'static',
+
     )
+### FUNCIONALIDAD PARA LOGEARSE
+from django.core.urlresolvers import reverse_lazy
+LOGIN_URL = reverse_lazy('login')
+LOGIN_REDIRECT_URL = reverse_lazy ('login')
+LOGOUT_URL = reverse_lazy ('logout')
