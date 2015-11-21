@@ -65,6 +65,10 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
+                'django.template.context_processors.i18n' , 
+                'django.template.context_processors.media' , 
+                'django.template.context_processors.static' , 
+                'django.template.context_processors.tz' ,
                 'django.contrib.messages.context_processors.messages',
             ],
         },
@@ -104,7 +108,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-	os.path.join(BASE_DIR, 'BibliotecaVirtual/static'),
-	)
+MEDIA_URL ='http://127.0.0.1:8000/media/'
+MEDIA_ROOT = 'media'

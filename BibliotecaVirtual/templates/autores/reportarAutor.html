@@ -13,7 +13,7 @@
 	    <li><b>apellido :</b>{{autor.apellido}} </li>
 	    <li><b>pais :</b>{{autor.pais}} </li>
 	    <li><b>descripcion :</b>{{autor.descripcion}} </li>
-	    <li><b>foto :</b> <img src="{{ROOT_URLCONF}}{{autor.foto}}"></li>
+	    <li><b>foto :</b> <img src="{{MEDIA_URL}}{{autor.foto}}">{{MEDIA_URL}}{{autor.foto}}</li>
 	    {% endfor %}
     </ul>
 	
