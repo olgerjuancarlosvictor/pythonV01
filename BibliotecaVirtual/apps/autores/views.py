@@ -19,3 +19,4 @@ class RegistrarAutor(CreateView):
 class ReportarAutor (ListView):
 	template_name = 'autores/reportarAutor.html'
 	model = Autor
+	context_object_name = 'autores'

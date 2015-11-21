@@ -34,5 +34,5 @@ urlpatterns = [
     url(r'^autor/', include('apps.autores.urls')),
 
     
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] # OTRA FORMA  DE LAMAR+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
